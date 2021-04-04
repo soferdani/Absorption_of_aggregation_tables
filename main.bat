@@ -44,7 +44,7 @@ call tableUpload.bat -i "C:\Users\Dani\Desktop\be2see\WCA\scripts\Absorption_of_
 
 echo %mydate%:%mytime% run tableUpload for CreditCampign  >>%logFile%
 
-call tableUpload.bat -i "C:\Users\Dani\Desktop\be2see\WCA\scripts\Absorption_of_aggregation_tables\CreditCampign_20210331.csv" -m "C:\Users\Dani\Desktop\be2see\WCA\scripts\Absorption_of_aggregation_tables\CreditCampaignMap.xml"
+call tableUpload.bat -i "C:\Users\Dani\Desktop\be2see\WCA\scripts\Absorption_of_aggregation_tables\CreditWallet_20210309.csv" -m "C:\Users\Dani\Desktop\be2see\WCA\scripts\Absorption_of_aggregation_tables\CreditWalletMap.xml"
 
 echo %mydate%:%mytime% run tableUpload for CreditWallet  >>%logFile%
 
