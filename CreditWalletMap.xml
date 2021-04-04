@@ -1,0 +1,64 @@
+<LIST_IMPORT>
+    <LIST_INFO>
+<!-- האופציות באקשן הם להחליף (ריפליס) או מה שיש עכשיו  -->
+        <ACTION>ADD_AND_UPDATE</ACTION>
+        <LIST_TYPE>0</LIST_TYPE>
+        <LIST_NAME>None</LIST_NAME>
+<!-- זה האיידי של הטבלת קשר שאני צריך  -->
+        <LIST_ID>9421224</LIST_ID>
+        <LIST_VISIBILITY>1</LIST_VISIBILITY>
+<!-- פייל טייפ 1 זה טיאסוי וסוג 0 זה סיאסוי -->
+        <FILE_TYPE>0</FILE_TYPE>
+        <HASHEADERS>true</HASHEADERS>
+<!-- אפשר לשנות לאיך שאני רוצה  -->
+        <LIST_DATE_FORMAT>MM/dd/yyyy</LIST_DATE_FORMAT>
+    </LIST_INFO>
+    <COLUMNS></COLUMNS>
+    <MAPPING>
+    <COLUMN>
+		<INDEX>1</INDEX>
+		<NAME>CreatedDate</NAME>
+		<INCLUDE>true</INCLUDE>
+	</COLUMN>
+	<COLUMN>
+		<INDEX>2</INDEX>
+		<NAME>UserId</NAME>
+		<INCLUDE>true</INCLUDE>
+	</COLUMN>
+	<COLUMN>
+		<INDEX>3</INDEX>
+		<NAME>InvoiceId</NAME>
+		<INCLUDE>true</INCLUDE>
+	</COLUMN>
+	<COLUMN>
+		<INDEX>4</INDEX>
+		<NAME>IsReward</NAME>
+		<INCLUDE>true</INCLUDE>
+	</COLUMN>
+	<COLUMN>
+		<INDEX>5</INDEX>
+		<NAME>CampaignId</NAME>
+		<INCLUDE>true</INCLUDE>
+	</COLUMN>
+	<COLUMN>
+		<INDEX>6</INDEX>
+		<NAME>RewardAmount</NAME>
+		<INCLUDE>true</INCLUDE>
+	</COLUMN>
+	<COLUMN>
+		<INDEX>7</INDEX>
+		<NAME>CamulationAmount</NAME>
+		<INCLUDE>true</INCLUDE>
+	</COLUMN>
+    </MAPPING>
+    <CONTACT_LISTS></CONTACT_LISTS>
+<SYNC_FIELDS>
+<!-- סינקפילד זה השדות או השדה של המפתח של הטבלת קשר  -->
+    <SYNC_FIELD>
+        <NAME>UserId</NAME>
+    </SYNC_FIELD>
+    <SYNC_FIELD>
+        <NAME>CampaignId</NAME>
+    </SYNC_FIELD>
+</SYNC_FIELDS>
+</LIST_IMPORT>
